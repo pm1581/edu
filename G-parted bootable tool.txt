@@ -1,0 +1,12 @@
+1)Navigate to https://distrowatch.com/ 
+2)In the top right you will see a box with a drop-down arrow, click the arrow and scroll till you see G-parted and select
+3) Note: this site is great for Linux info on distro's as well as links for related Linux software and links to help wiki's
+4)Find the link to the home page and go
+5) note:please read over the site and download ISO
+6) note:This is and boot-able partition manager that will help wipe drives,format them,and many more things(please look over the site before using this software) I'm including to how-to because its a handy tool when it comes to doing fresh installs for my "How-To's" on installing OS's
+7)If your using Windows navigate to Rufus and download and run disk formatting software
+8)If your using a Linux system that system will have a command-line tool called fdisk but i recommend "Mate Disks" if your perfer a gui
+9)Rufus presets are already for you, select the ISO and start, to make boot-able drive
+10)If your using "disks" there is a man page that will help u, from the command line type "man fdisk"
+11)Now that you have a boot-able USB, boot into it and apply as needed for your needs
+12Good luck!
