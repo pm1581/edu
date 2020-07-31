@@ -1,0 +1,14 @@
+First lets check your sytem info, run $sudo lshw -short or for a more detailed output $sudo lshw
+to install a bare metal Hyervisor we first check if our cpu supports virtualization. There are two ways to do this first check your cpu in the bios of your machine, I have a lenovo M91p and I'm able to find this info under the advance tab and cpu setup tab. You can run this command $egrep -c '(vmx|svm)' /proc/cpuinfo in the terminal. If 0's come up then no virtualization,if 1 or more then enable in  bios (note:check your machines manufacuter's website or manul to confirm enabling thruogh the bios)
+If you have enabled virtualization run $kvm-ok,this will clear you for the actual insatll
+One more thing before we install,most system these day are 64 bit but there are still 32 bit michines out there. Run $uname -m just to verify what architexture your michine is running on.
+run this command to install qume-kvm $sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+now that we have qemu-kvm install we need to add our user (please remember these how-to's are building off my previous text docs) run $sudo adduser `id -un` libvirt,this adds your user to libvirt group, if your get this not to worry move on
+now we want to add user to kvm gruop with $sudo adduser `id -un` kvm, output should be [Adding user peter to group kvm] for a successful add
+to check we can either cat your groups file in /etc/ or run $groups 
+and not we want to check our full install with $virsh list --all with an output of ID   NAME   STATE
+                                                                                   -----------------
+and now we are ready to build virtual machines                                                                                   
+
+
+

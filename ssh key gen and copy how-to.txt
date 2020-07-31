@@ -1,0 +1,7 @@
+1)in the command-line run $sudo systemctl status ssh.service (this checks to see if opennssh-server is installed and active)
+2)   note: if not install using apt
+3)run $ssh-keygen (this will generate a private and public key and .ssh file)
+4)   note:.ssh file is hidden in your home directory-to view run $ls -la, then cd into it
+5)to copy your ssh key and place on another system use $ssh-copy-id user@ ip address
+6)   note:this is not recomended but if you skip the password section then you wont have to use a pass code and will log right in every time.
+

@@ -1,0 +1,21 @@
+1)Download ISo from ubuntu website
+2)if your using windows navigate to rufus and download and run disk formating software
+3)be sure to use 8GB usb drive or bigger
+4)rufus presets are already for you, select the ISO and start, to make bootable drive
+5)depending on how you are setting up will determine your partioning scheme
+6)boot into your ubuntu 20.04 LTS server-edition live usb drive(systems very for boot optons,check with the manufactures manuels for correct hotkey)
+7)click install( from here on out the arrow keys and space bar will be how you navigate and select your options) 
+8)this will be different then you ubuntu desktop install because this will be all command line options(but not to worry ubuntu makes it very simple to understand and it fallows the same priciples as the desktop version)
+9)selectct your language 
+10) u will be asked if you would like to upgrade the installer ( for me i choose continue without updating) but the choice is yours and they also provide a github link for you to be more informed about the updated installer
+11)now choose your keyboard layout,I go with defaults for me)
+12)now configure your network interfaces, I only have 1 so i go with defaults and done
+13)if you have a proxy you want to set up this screen is for that,I donot so "done" for me
+14)if you choose to update from a different morrior site this screen is where you put your chosen site.
+15)here you choose your partioning and disk scheme,I have a 350GB HDD and a 2TB Hdd,I will installon on my 350GB HDD and add my 2TB Hdd Later,so im choosing my correct drive with a full installation
+16)here will be an overview of your install please review before makeing final install,Rest if there are any chages you would like to make
+17)choose your user name and name of computer,as well as set sudo 
+18)choose weather to install OpenSSH server i choose yes but you can install lter if you wish
+19)here you can choose any other software that you might want to install now or or you can install later
+20) restart and remove instalation usb 
+21)GO! and enjoy!

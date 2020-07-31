@@ -1,0 +1,16 @@
+Download ISo from ubuntu website
+if your using windows navigate to rufus and download and run disk formating software
+be sure to use 16GB usb drive or bigger
+rufus presets are already for you, select the ISO and start, to make bootable drive
+depending on how you are setting up will determine your partioning scheme
+boot into your ubuntu live usb drive(systems very for boot optons,check with the manufactures manuels for correct hotkey)
+click install 
+choose language and keyboard setup(for me all english/usa)
+connect to internet or not (up to you)
+i choose to connect and install third party software during install
+next will be your partioning scheme for me i choose earse disk and install ubuntu, which allows me to install on drive of my choice(consult ubuntu for other istallation opyions that suit your install)
+choose your correct time zone
+choose your user name and name of computer,as well as set sudo password or choose to skip login if your install for someone else( this way the can set thier own password)
+wait for install to finish
+you will be prompted to restart and remonve instalation tool 
+enjoy!
